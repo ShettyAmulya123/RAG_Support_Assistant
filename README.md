@@ -23,6 +23,8 @@ The system retrieves relevant information from a company knowledge base PDF and 
 
 # 🏗️ Project Architecture :
 
+```text
+
 User Query
     ↓
 Streamlit Frontend
