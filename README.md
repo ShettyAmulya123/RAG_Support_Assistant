@@ -54,6 +54,7 @@ Logging	Application observability
 
 
 📂 Project Structure
+
 rag-support-assistant/
 │
 ├── app/
@@ -105,11 +106,9 @@ GROQ_API_KEY=your_groq_api_key
 📄 Knowledge Base Ingestion
 
 Place your PDF inside:
-
 data/
 
 Run ingestion pipeline:
-
 python -m app.rag.ingest
 
 This performs:
@@ -122,39 +121,31 @@ FAISS vector storage
 uvicorn app.api:api --reload
 
 Backend runs at:
-
 http://127.0.0.1:8000
 
 Swagger API Docs:
-
 http://127.0.0.1:8000/docs
 💬 Run Streamlit Frontend
 
 Open another terminal:
-
 streamlit run app/ui.py
 
 Frontend runs at:
-
 http://localhost:8501
 📊 Metrics Endpoint
 
 Prometheus metrics available at:
-
 http://127.0.0.1:8000/metrics
 
 Metrics include:
-
 request count
 API latency
+
 📝 Logging
-
 Application logs are stored in:
-
 logs/app.log
 
 Logs include:
-
 user queries
 response generation
 backend activity
