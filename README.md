@@ -41,18 +41,20 @@ Groq LLM
     ↓
 AI Response
 
-# Technology :
+🛠️ Technology :
 
-Python	Core programming language
-LangChain	RAG pipeline and document processing
-LangGraph	Workflow orchestration
-FAISS	Vector database
-HuggingFace Embeddings	Semantic embeddings
-Groq Llama 3.3	LLM response generation
-FastAPI	Backend API framework
-Streamlit	Frontend UI
-Prometheus	Metrics monitoring
-Logging	Application observability
+| Technology             | Purpose                              |
+| ---------------------- | ------------------------------------ |
+| Python                 | Core programming language            |
+| LangChain              | RAG pipeline and document processing |
+| LangGraph              | Workflow orchestration               |
+| FAISS                  | Vector database                      |
+| HuggingFace Embeddings | Semantic embeddings                  |
+| Groq Llama 3.3         | LLM response generation              |
+| FastAPI                | Backend API framework                |
+| Streamlit              | Frontend UI                          |
+| Prometheus             | Metrics monitoring                   |
+| Logging                | Application observability            |
 
 
 📂 Project Structure
@@ -92,11 +94,10 @@ git clone <your-github-repo-link>
 cd rag-support-assistant
 2️⃣ Create Virtual Environment
 python -m venv venv
+
 Activate Environment
-Windows
-venv\Scripts\activate
-Linux / Mac
-source venv/bin/activate
+Windows: venv\Scripts\activate
+Linux / Mac: source venv/bin/activate
 
 3️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -106,22 +107,19 @@ Create a .env file in the project root:
 
 GROQ_API_KEY=your_groq_api_key
 📄 Knowledge Base Ingestion
-
 Place your PDF inside:
 data/
-
 Run ingestion pipeline:
 python -m app.rag.ingest
 
 This performs:
-
 PDF loading
 chunking
 embeddings generation
 FAISS vector storage
+
 🚀 Run FastAPI Backend
 uvicorn app.api:api --reload
-
 Backend runs at:
 http://127.0.0.1:8000
 
