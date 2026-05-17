@@ -1,0 +1,11 @@
+2026-05-16 16:37:17,354 | INFO | Received query: how do i raise a complain against company
+2026-05-16 16:37:17,406 | INFO | Response generated successfully
+2026-05-16 16:38:27,336 | INFO | Received query: how do I change password
+2026-05-16 16:38:27,685 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:38:27,687 | INFO | Response generated successfully
+2026-05-16 16:49:16,756 | INFO | Received query:  Why is my device showing offline?
+2026-05-16 16:49:17,290 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:49:17,292 | INFO | Response generated successfully
+2026-05-16 16:50:01,479 | INFO | Received query:  How do I contact live chat support?
+2026-05-16 16:50:01,810 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 16:50:01,813 | INFO | Response generated successfully

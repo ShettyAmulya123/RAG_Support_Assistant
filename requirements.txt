@@ -1,0 +1,15 @@
+langchain
+langgraph
+langchain-community
+sentence-transformers
+faiss-cpu
+pypdf
+fastapi
+uvicorn
+streamlit
+groq
+python-dotenv
+prometheus-client
+requests
+langchain-text-splitters
+prometheus_client
